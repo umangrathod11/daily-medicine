@@ -1,625 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Daily-Medicine</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
-    <link href="img/favicon.ico" rel="icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div
-        class="spinner-border text-primary"
-        role="status"
-        style="width: 3rem; height: 3rem"
-      ></div>
-    </div>
-    <div
-      class="container-fluid fixed-top px-0 wow fadeIn"
-      data-wow-delay="0.1s"
-    >
-      <nav
-        class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn"
-        data-wow-delay="0.1s"
-      >
-        <a href="index.html">
-          <img
-            src="/img/Daily-Medicine-removebg-preview.png"
-            alt="Finanza Logo"
-            class="logo-img"
-          />
-        </a>
-        <button
-          type="button"
-          class="navbar-toggler me-4"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
-            <a href="service.html" class="nav-item nav-link">Services</a>
-            <div class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                >Pages</a
-              >
-              <div class="dropdown-menu border-light m-0">
-                <a href="team.html" class="dropdown-item">Team Member</a>
-                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-              </div>
-            </div>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
-          </div>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Daily-Medicine</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+  <link href="img/favicon.ico" rel="icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+</head>
+
+<body>
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem"></div>
+  </div>
+  <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+    <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+      <a href="index.html">
+        <img src="/img/Daily-Medicine-removebg-preview.png" alt="Finanza Logo" class="logo-img" />
+      </a>
+      <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="about.html" class="nav-item nav-link">About</a>
+          <a href="service.html" class="nav-item nav-link">Services</a>
+          <a href="#" class="nav-link">Pages</a>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+          <a href="https://api.whatsapp.com/send?phone=+919875225326&text=Hello I contact to you for More Information About Daily Medicine"
+            class="nav-item nav-link">
+            <i class="fab fa-whatsapp whatsapp"></i>
+          </a>
         </div>
-      </nav>
-    </div>
-    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
-      <div
-        id="header-carousel"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="w-100" src="img/banner1.jpg" alt="Image" />
-            <div class="carousel-caption">
-              <div class="container">
-                <div class="row justify-content-start">
-                  <div class="col-lg-8">
-                    <h1 class="display-1 mb-4 animated slideInDown">
-                      Making You Happy And Healthy
-                    </h1>
-                    <a
-                      href=""
-                      class="btn btn-primary py-3 px-5 animated slideInDown"
-                      >Explore More</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="w-100" src="img/Banner02.jpg" alt="Image" />
-            <div class="carousel-caption">
-              <div class="container">
-                <div class="row justify-content-start">
-                  <div class="col-lg-8">
-                    <h1 class="display-1 mb-4 animated slideInDown">
-                      Daily medicine, a daily commitment to better health.
-                    </h1>
-                    <a
-                      href=""
-                      class="btn btn-primary py-3 px-5 animated slideInDown"
-                      >Explore More</a
-                    >
-                  </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="w-100" src="img/banner1.jpg" alt="Image" />
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-lg-8">
+                  <h1 class="display-1 mt-5 animated slideInDown">
+                    Making You Happy And Healthy
+                  </h1>
+                  <a href="https://api.whatsapp.com/send?phone=+919875225326&text=Hello I contact to you for More Information About Daily Medicine"
+                    class="btn btn-primary py-3 px-5 animated slideInDown mt-3">Explore More</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#header-carousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#header-carousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-4 align-items-end mb-4">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <img class="img-fluid rounded" src="img/about.jpg" />
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-            <p
-              class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
-            >
-              About Us
-            </p>
-            <h1 class="display-5 mb-4">
-              We Help Our Clients To Grow Their Business
-            </h1>
-            <p class="mb-4">
-              Welcome to Daily Medicine, your trusted source for affordable,
-              high-quality medicines. We believe that access to quality
-              healthcare is a fundamental right, not a luxury. Our
-              state-of-the-art facility ensures that we bring you the best in
-              healthcare.
-            </p>
-            <p class="mb-4">
-              Daily Medicine is dedicated to making quality healthcare
-              accessible to all.
-            </p>
+        <div class="carousel-item">
+          <img class="w-100" src="img/Banner02.jpg" alt="Image" />
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-lg-8">
+                  <h1 class="display-1 mt-5 animated slideInDown">
+                    Daily commitment to better health.
+                  </h1>
+                  <a href="https://api.whatsapp.com/send?phone=+919875225326&text=Hello I contact to you for More Information About Daily Medicine"
+                    class="btn btn-primary py-3 px-5 animated slideInDown mt-3">Explore More</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="container-xxl feature py-5">
-      <div class="container">
-        <div class="row g-5 align-items-center">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <p
-              class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
-            >
-              Why Choosing Us!
-            </p>
-            <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
-            <p class="mb-4">
-              Daily Medicine offers convenient home delivery of medications,
-              personalized pharmacy services, and competitive pricing. It
-              ensures timely medication management, making it an ideal choice
-              for individuals seeking accessible and cost-effective healthcare
-              solutions.
-            </p>
-            <a class="btn btn-primary py-3 px-5" href="">Explore More</a>
-          </div>
-          <div class="col-lg-6">
-            <div class="row g-4 align-items-center">
-              <div class="col-md-6">
-                <div class="row g-4">
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="feature-box border rounded p-4">
-                      <i class="fa fa-check fa-3x text-primary mb-3"></i>
-                      <h4 class="mb-3">MISSION</h4>
-                      <p class="mb-3">
+  </div>
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-4 align-items-end mb-4">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <img class="img-fluid rounded" src="img/about.jpg" />
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+          <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">
+            About Us
+          </p>
+          <h1 class="display-5 mb-4">
+            Daily medicine: small steps to big health benefits
+          </h1>
+          <p class="mb-4">
+            Welcome to Daily Medicine, Your trusted source for affordable,
+            high-quality medicines. We believe that access to quality
+            healthcare is a fundamental right, not a luxury. Our
+            state-of-the-art facility ensures that we bring you the best in
+            healthcare.
+          </p>
+          <p class="mb-4">
+            Daily Medicine is dedicated to making quality healthcare
+            accessible to all.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-xxl feature py-5">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">
+            Why Choosing Us!
+          </p>
+          <h1 class="display-5 mb-4">Why Choose Daily Medicine ?</h1>
+          <p class="mb-4">
+            Daily Medicine offers convenient home delivery of medications,
+            personalized pharmacy services, and competitive pricing. It
+            ensures timely medication management, making it an ideal choice
+            for individuals seeking accessible and cost-effective healthcare
+            solutions.
+          </p>
+          <a class="btn btn-primary py-3 px-5"
+            href="https://api.whatsapp.com/send?phone=+919875225326&text=Hello I contact to you for More Information About Daily Medicine">Explore
+            More</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6">
+              <div class="row g-4">
+                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="feature-box border rounded p-4">
+                    <i class="fa fa-check fa-3x text-primary mb-3"></i>
+                    <h4 class="mb-3">Round the clock
+                      dedicated service.</h4>
+                    <!-- <p class="mb-3">
                         Daily Medicine is committed to offering exceptional
                         healthcare solutions that are affordable and accessible
                         for everyone.
-                      </p>
-                    </div>
+                      </p> -->
                   </div>
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="feature-box border rounded p-4">
-                      <i class="fa fa-check fa-3x text-primary mb-3"></i>
-                      <h4 class="mb-3">QUALITY ASSURANCE</h4>
-                      <p class="mb-3">
+                </div>
+                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                  <div class="feature-box border rounded p-4">
+                    <i class="fa fa-check fa-3x text-primary mb-3"></i>
+                    <h4 class="mb-3">Highly Experience Pharmacist.</h4>
+                    <!-- <p class="mb-3">
                         We offer a wide range of branded and ready-to-use
                         medications, ensuring that every product you receive is
                         safe, pure, and effective. Trust Daily Medicine for all
                         your pharmaceutical needs.
-                      </p>
-                    </div>
+                      </p> -->
+                  </div>
+                </div>
+                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="feature-box border rounded p-4">
+                    <i class="fa fa-moner fa-3x text-primary mb-3"></i>
+                    <h4 class="mb-3">Flexible payment
+                      options bank transfer,
+                      G Pay / Paytm etc.</h4>
+                    <!-- <p class="mb-3">
+                        Daily Medicine is committed to offering exceptional
+                        healthcare solutions that are affordable and accessible
+                        for everyone.
+                      </p> -->
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
-                <div class="feature-box border rounded p-4">
-                  <i class="fa fa-check fa-3x text-primary mb-3"></i>
-                  <h4 class="mb-3">WHY CHOOSE DAILY MEDICINE</h4>
-                  <p class="mb-3">
+            </div>
+            <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
+              <div class="feature-box border rounded p-4">
+                <i class="fa fa-check fa-3x text-primary mb-3"></i>
+                <h4 class="mb-3">We provide genuine
+                  and standard
+                  medicines.</h4>
+                <!-- <p class="mb-3">
                     Daily Medicine is a mission-focused company dedicated to
                     making healthcare accessible to millions worldwide. Beyond
                     just providing medicines, we aim to enhance lives by
                     offering affordable healthcare solutions.
-                  </p>
-                </div>
+                  </p> -->
               </div>
+              <div class="feature-box border rounded p-4 mt-3">
+                <i class="fa fa-check fa-3x text-primary mb-3"></i>
+                <h4 class="mb-3">Satisfaction of our
+                  customer is much
+                  more important.</h4>
+                <!-- <p class="mb-3">
+                    Daily Medicine is a mission-focused company dedicated to
+                    making healthcare accessible to millions worldwide. Beyond
+                    just providing medicines, we aim to enhance lives by
+                    offering affordable healthcare solutions.
+                  </p> -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Our Category</h2>
+        <p class="section-description">
+          Browse through our collection of exclusive items and find the
+          perfect one for you!
+        </p>
+      </div>
+      <div class="row g-4">
+        <!-- Product 1 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/vitamin.webp" class="card-img-top product-image" alt="Product 1" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Vitamin & Nutrition</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/fitness.webp" class="card-img-top product-image" alt="Product 2" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Fitness Supplements</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/drinks.webp" class="card-img-top product-image" alt="Product 3" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Nutritional Drinks</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/healthy.webp" class="card-img-top product-image" alt="Product 4" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Healthy Snacks</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 5 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/kin-care.webp" class="card-img-top product-image" alt="Product 5" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Skin care & oral care</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 6 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/baby-care.webp" class="card-img-top product-image" alt="Product 6" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Baby Care</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 7 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/fever.webp" class="card-img-top product-image" alt="Product 7" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Fever & Headache</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 8 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/cold-cough.webp" class="card-img-top product-image" alt="Product 8" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Cold & Cough</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 9 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/pain.webp" class="card-img-top product-image" alt="Product 9" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Pain Relief</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 10 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/medicine/stomach-care.jpeg" class="card-img-top product-image" alt="Product 10" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Stomach Care</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 11 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/medicine/diabetes-care.jpeg" class="card-img-top product-image" alt="Product 11" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Diabetes Care</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Product 12 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-card">
+            <img src="/img/medicine/herbal-supplements.jpeg" class="card-img-top product-image" alt="Product 12" />
+            <div class="card-body product-info">
+              <h5 class="card-title">Herbal Supplements</h5>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="section-title">Our Category</h2>
-          <p class="section-description">
-            Browse through our collection of exclusive items and find the
-            perfect one for you!
-          </p>
+  </div>
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
+        <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">
+          Our Team
+        </p>
+        <h1 class="display-5 mb-5">Exclusive Team</h1>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="team-item">
+            <img class="img-fluid rounded" src="img/founder.png" alt="" />
+            <div class="team-text">
+              <h4 class="mb-0">Founder</h4>
+            </div>
+          </div>
         </div>
-        <div class="row g-4">
-          <!-- Product 1 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/vitamin-nutrition.jpeg"
-                class="card-img-top product-image"
-                alt="Product 1"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Vitamin & Nutrition</h5>
-              </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="team-item">
+            <img class="img-fluid rounded" src="img/co-founder.png" alt="" />
+            <div class="team-text">
+              <h4 class="mb-0">Co-Founder</h4>
             </div>
           </div>
-          <!-- Product 2 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/fitness.jpeg"
-                class="card-img-top product-image"
-                alt="Product 2"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Fitness Supplements</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 3 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/nutritional-drinks.jpeg"
-                class="card-img-top product-image"
-                alt="Product 3"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Nutritional Drinks</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 4 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/healthy-snacks.jpeg"
-                class="card-img-top product-image"
-                alt="Product 4"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Healthy Snacks</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 5 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/skin-care.jpeg"
-                class="card-img-top product-image"
-                alt="Product 5"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Skin care & oral care</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 6 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/baby-care.jpeg"
-                class="card-img-top product-image"
-                alt="Product 6"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Baby Care</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 7 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/fever-headache.jpeg"
-                class="card-img-top product-image"
-                alt="Product 7"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Fever & Headache</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 8 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/cold-cough.jpeg"
-                class="card-img-top product-image"
-                alt="Product 8"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Cold & Cough</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 9 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/pain-relief.jpeg"
-                class="card-img-top product-image"
-                alt="Product 9"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Pain Relief</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 10 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/stomach-care.jpeg"
-                class="card-img-top product-image"
-                alt="Product 10"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Stomach Care</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 11 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/diabetes-care.jpeg"
-                class="card-img-top product-image"
-                alt="Product 11"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Diabetes Care</h5>
-              </div>
-            </div>
-          </div>
-          <!-- Product 12 -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="card product-card">
-              <img
-                src="/img/medicine/herbal-supplements.jpeg"
-                class="card-img-top product-image"
-                alt="Product 12"
-              />
-              <div class="card-body product-info">
-                <h5 class="card-title">Herbal Supplements</h5>
-              </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="team-item">
+            <img class="img-fluid rounded" src="img/manager.png" alt="" />
+            <div class="team-text">
+              <h4 class="mb-0">Manager</h4>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div
-          class="text-center mx-auto wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 600px"
-        >
-          <p
-            class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
-          >
-            Our Team
-          </p>
-          <h1 class="display-5 mb-5">Exclusive Team</h1>
+  </div>
+
+  <section class="steps-section">
+    <div class="container">
+
+      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
+        <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">
+          Medicine at your doorstep in
+        </p>
+        <h1 class="display-5 mb-5"> 3 Simple steps!</h1>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-icon">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <p class="step-description">Send us your prescription on WhatsApp.</p>
         </div>
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="team-item">
-              <img class="img-fluid rounded" src="img/founder.png" alt="" />
-              <div class="team-text">
-                <h4 class="mb-0">Founder</h4>
-              </div>
-            </div>
+
+        <div class="step">
+          <div class="step-icon">
+            <i class="fas fa-wallet"></i>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="team-item">
-              <img class="img-fluid rounded" src="img/co-founder.png" alt="" />
-              <div class="team-text">
-                <h4 class="mb-0">Co-Founder</h4>
-              </div>
-            </div>
+          <p class="step-description">Enjoy hassle-free payment with UPI.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-icon">
+            <i class="fas fa-truck"></i>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="team-item">
-              <img class="img-fluid rounded" src="img/manager.png" alt="" />
-              <div class="team-text">
-                <h4 class="mb-0">Manager</h4>
-              </div>
-            </div>
-          </div>
+          <p class="step-description">Receive your medicine at your doorstep.</p>
         </div>
       </div>
     </div>
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div
-          class="text-center mx-auto wow fadeInUp"
-          data-wow-delay="0.1s"
-          style="max-width: 600px"
-        >
-          <p
-            class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
-          >
-            Testimonial
-          </p>
-          <h1 class="display-5 mb-5">What Our Clients Say!</h1>
+  </section>
+
+
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
+        <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">
+          Testimonial
+        </p>
+        <h1 class="display-5 mb-5">What Our Clients Say!</h1>
+      </div>
+      <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+        <div class="testimonial-item">
+          <div class="testimonial-text border rounded p-4 pt-5 mb-5">
+            <div class="btn-square bg-white border rounded-circle">
+              <i class="fa fa-quote-right fa-2x text-primary"></i>
+            </div>
+            "Daily Medicine home delivery service has been a game-changer for
+            me. I used to struggle with remembering to pick up my
+            prescriptions on time, but now I get them delivered right to my
+            door. The convenience is unmatched, and the deliveries are always
+            prompt and reliable."
+          </div>
+          <img class="rounded-circle mb-3" src="img/client-1.jpeg" alt="" />
+          <h4>Pratik Savaliya</h4>
         </div>
-        <div
-          class="owl-carousel testimonial-carousel wow fadeInUp"
-          data-wow-delay="0.3s"
-        >
-          <div class="testimonial-item">
-            <div class="testimonial-text border rounded p-4 pt-5 mb-5">
-              <div class="btn-square bg-white border rounded-circle">
-                <i class="fa fa-quote-right fa-2x text-primary"></i>
-              </div>
-              "Daily Medicine home delivery service has been a game-changer for
-              me. I used to struggle with remembering to pick up my
-              prescriptions on time, but now I get them delivered right to my
-              door. The convenience is unmatched, and the deliveries are always
-              prompt and reliable."
+        <div class="testimonial-item">
+          <div class="testimonial-text border rounded p-4 pt-5 mb-5">
+            <div class="btn-square bg-white border rounded-circle">
+              <i class="fa fa-quote-right fa-2x text-primary"></i>
             </div>
-            <img
-              class="rounded-circle mb-3"
-              src="img/client-1.jpeg"
-              alt=""
-            />
-            <h4>Pratik Savaliya</h4>
+            "Timely deliveries make Daily Medicine my go-to pharmacy. As
+            someone with a busy lifestyle, I appreciate how easy it is to get
+            my medications delivered. I no longer have to take time out of my
+            day to visit a pharmacy. The convenience and reliability of their
+            delivery service are top-notch."
           </div>
-          <div class="testimonial-item">
-            <div class="testimonial-text border rounded p-4 pt-5 mb-5">
-              <div class="btn-square bg-white border rounded-circle">
-                <i class="fa fa-quote-right fa-2x text-primary"></i>
-              </div>
-              "Timely deliveries make Daily Medicine my go-to pharmacy. As
-              someone with a busy lifestyle, I appreciate how easy it is to get
-              my medications delivered. I no longer have to take time out of my
-              day to visit a pharmacy. The convenience and reliability of their
-              delivery service are top-notch."
+          <img class="rounded-circle mb-3" src="img/client-2.jpeg" alt="" />
+          <h4>Dharmesh Gelani</h4>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-text border rounded p-4 pt-5 mb-5">
+            <div class="btn-square bg-white border rounded-circle">
+              <i class="fa fa-quote-right fa-2x text-primary"></i>
             </div>
-            <img
-              class="rounded-circle mb-3"
-              src="img/client-2.jpeg"
-              alt=""
-            />
-            <h4>Dharmesh Gelani</h4>
+            "Daily Medicine has made managing my prescriptions so much easier.
+            Their home delivery service is a game-changer. I used to struggle
+            with remembering to pick up my medications on time, but now I get
+            them delivered right to my door. The convenience is unmatched, and
+            I can focus on my health."
           </div>
-          <div class="testimonial-item">
-            <div class="testimonial-text border rounded p-4 pt-5 mb-5">
-              <div class="btn-square bg-white border rounded-circle">
-                <i class="fa fa-quote-right fa-2x text-primary"></i>
-              </div>
-              "Daily Medicine has made managing my prescriptions so much easier.
-              Their home delivery service is a game-changer. I used to struggle
-              with remembering to pick up my medications on time, but now I get
-              them delivered right to my door. The convenience is unmatched, and
-              I can focus on my health."
+          <img class="rounded-circle mb-3" src="img/client-3.jpeg" alt="" />
+          <h4>Chirag Alagiya</h4>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-text border rounded p-4 pt-5 mb-5">
+            <div class="btn-square bg-white border rounded-circle">
+              <i class="fa fa-quote-right fa-2x text-primary"></i>
             </div>
-            <img
-              class="rounded-circle mb-3"
-              src="img/client-3.jpeg"
-              alt=""
-            />
-            <h4>Chirag Alagiya</h4>
+            "Excellent customer service and very user-friendly. I highly
+            recommend Daily Medicine for anyone needing medication management.
+            The platform is intuitive, and the staff is always ready to assist
+            with any issues. It's a seamless experience from ordering to
+            delivery, making medication management."
           </div>
-          <div class="testimonial-item">
-            <div class="testimonial-text border rounded p-4 pt-5 mb-5">
-              <div class="btn-square bg-white border rounded-circle">
-                <i class="fa fa-quote-right fa-2x text-primary"></i>
-              </div>
-              "Excellent customer service and very user-friendly. I highly
-              recommend Daily Medicine for anyone needing medication management.
-              The platform is intuitive, and the staff is always ready to assist
-              with any issues. It's a seamless experience from ordering to
-              delivery, making medication management."
-            </div>
-            <img
-              class="rounded-circle mb-3"
-              src="img/client-4.jpeg"
-              alt=""
-            />
-            <h4>Vivek Kanada</h4>
-          </div>
+          <img class="rounded-circle mb-3" src="img/client-4.jpeg" alt="" />
+          <h4>Vivek Kanada</h4>
         </div>
       </div>
     </div>
-    <div class="container-fluid callback my-5 pt-5">
-      <div class="container pt-5">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div
-              class="bg-white border rounded p-4 p-sm-5 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div
-                class="text-center mx-auto wow fadeInUp"
-                data-wow-delay="0.1s"
-                style="max-width: 600px"
-              >
-                <p
-                  class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
-                >
-                  Get In Touch
-                </p>
-                <h1 class="display-5 mb-5">Request A Call-Back</h1>
-              </div>
+  </div>
+  <div class="container-fluid callback my-5 pt-5">
+    <div class="container pt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
+              <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">
+                Get In Touch
+              </p>
+              <h1 class="display-5 mb-5">Request A Call-Back</h1>
+            </div>
+            <form action="https://formspree.io/f/xrbzgkgy"
+            method="POST">
               <div class="row g-3">
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                    />
-                    <label for="name">Your Name</label>
+                    <input type="text" class="form-control" id="first_name" placeholder="Your Name" name="first_name" />
+                    <label for="name">First Name</label>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="mail"
-                      placeholder="Your Email"
-                    />
-                    <label for="mail">Your Email</label>
+                    <input type="text" class="form-control" id="last_name" placeholder="Name" name="last_name" />
+                    <label for="name">Last Name</label>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="mobile"
-                      placeholder="Your Mobile"
-                    />
-                    <label for="mobile">Your Mobile</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email"/>
+                    <label for="email">Email</label>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="subject"
-                      placeholder="Subject"
-                    />
-                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" id="city" placeholder="City" name="city"/>
+                    <label for="city">City</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="state" placeholder="State" name="state"/>
+                    <label for="state">State</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="mobile" placeholder="Mobile Number" name="mobile" />
+                    <label for="mobile">Mobile Number</label>
                   </div>
                 </div>
                 <div class="col-12">
                   <div class="form-floating">
-                    <textarea
-                      class="form-control"
-                      placeholder="Leave a message here"
-                      id="message"
-                      style="height: 100px"
-                    ></textarea>
+                    <textarea class="form-control" name="message" placeholder="Leave a message here" id="message"
+                      style="height: 100px"></textarea>
                     <label for="message">Message</label>
                   </div>
                 </div>
@@ -629,92 +542,81 @@
                   </button>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn"
-      data-wow-delay="0.1s">
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-lg-4 col-md-6">
-            <h4 class="text-white mb-4">Our Office</h4>
-            <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i>Sapana Society, Ranjit Nagar Society, Hirabaugh, Surat, Gujarat 395006
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i>+91 7433043304
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i>dailymedicine4all@gmail.com
-            </p>
-            <div class="d-flex pt-2">
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-2"
-                href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-2"
-                href="https://www.facebook.com/profile.php?id=61561542752355"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-2"
-                href="https://www.youtube.com/channel/UC7erBsBLgivJXh_MxHegNzg"
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a
-                class="btn btn-square btn-outline-light rounded-circle me-2"
-                href="www.linkedin.com/in/daily-medicine-b12098315"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
+  </div>
+
+  <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <h4 class="text-white mb-4">Our Office</h4>
+          <p class="mb-2">
+            <i class="fa fa-map-marker-alt me-3"></i>Sapana Society, Ranjit
+            Nagar Society, Hirabaugh, Surat, Gujarat 395006
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-phone-alt me-3"></i>+91 7433043304
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-envelope me-3"></i>dailymedicine4all@gmail.com
+          </p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square btn-outline-light rounded-circle me-2"
+              href="https://www.facebook.com/profile.php?id=61561542752355"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square btn-outline-light rounded-circle me-2"
+              href="https://www.youtube.com/channel/UC7erBsBLgivJXh_MxHegNzg"><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square btn-outline-light rounded-circle me-2"
+              href="www.linkedin.com/in/daily-medicine-b12098315"><i class="fab fa-linkedin-in"></i></a>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <h4 class="text-white mb-4">Services</h4>
-            <a class="btn btn-link" href="service.html">Financial Planning</a>
-            <a class="btn btn-link" href="service.html">Cash Investment</a>
-            <a class="btn btn-link" href="service.html">Financial Consultancy</a>
-            <a class="btn btn-link" href="service.html">Business Loans</a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <h4 class="text-white mb-4">Quick Links</h4>
-            <a class="btn btn-link" href="about.html">About Us</a>
-            <a class="btn btn-link" href="contact.html">Contact Us</a>
-            <a class="btn btn-link" href="service.html">Our Services</a>
-            <a class="btn btn-link" href="index.html">Terms & Condition</a>
-          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h4 class="text-white mb-4">Services</h4>
+          <a class="btn btn-link" href="service.html">Financial Planning</a>
+          <a class="btn btn-link" href="service.html">Cash Investment</a>
+          <a class="btn btn-link" href="service.html">Financial Consultancy</a>
+          <a class="btn btn-link" href="service.html">Business Loans</a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h4 class="text-white mb-4">Quick Links</h4>
+          <a class="btn btn-link" href="about.html">About Us</a>
+          <a class="btn btn-link" href="contact.html">Contact Us</a>
+          <a class="btn btn-link" href="service.html">Our Services</a>
+          <a class="btn btn-link" href="index.html">Terms & Condition</a>
         </div>
       </div>
     </div>
-    <div class="container-fluid copyright py-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            &copy; <a class="border-bottom" href="index.html">Daily-Medicine</a>, All
-            Right Reserved.
-          </div>
-          <div class="col-md-6 text-center text-md-end">
-            Designed By
-            <a class="border-bottom" href="https://htmlcodex.com">FitIt</a>
-          </div>
+  </div>
+  <div class="container-fluid copyright py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          &copy;
+          <a class="border-bottom" href="index.html">Daily-Medicine</a>, All
+          Right Reserved.
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          Designed By
+          <a class="border-bottom" href="https://htmlcodex.com">FitIt</a>
         </div>
       </div>
     </div>
-    <a
-      href="#"
-      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  </div>
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="js/main.js"></script>
+
+ 
+</body>
+
 </html>

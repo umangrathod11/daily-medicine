@@ -593,3 +593,90 @@ h6,
     max-height: 120px;
     width: auto;
   }
+
+  
+  
+  /* Hover effect for the WhatsApp button */
+  .whatsapp {
+    color: #1ebe55;
+    font-size: 25px;
+  }
+  /* General styling for the section */
+.steps-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .steps-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .steps-subtitle {
+    font-size: 28px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(174, 167, 167);
+    border-style: dotted;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .step-icon {
+    font-size: 48px;
+    color: #355EFC;
+    margin-bottom: 15px;
+  }
+  
+  .step-description {
+    font-size: 18px;
+    color: #666;
+    margin-top: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .steps {
+      flex-direction: row;
+    }
+  
+    .step {
+      max-width: 250px;
+      padding: 20px 15px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .steps {
+      gap: 40px;
+    }
+  
+    .step {
+      max-width: 280px;
+      padding: 30px 20px;
+    }
+  }
+  
